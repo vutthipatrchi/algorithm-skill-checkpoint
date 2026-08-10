@@ -3,14 +3,14 @@ function sortProductsByPrice(products) {
   for (let i=0; i < n-1; i++){
     for (let j=0; j< n-1-i; j++){
       if (products[j].price > products[j+1].price){
-        
+        [products[j].price,products[j+1].price] = [products[j+1].price,products[j].price]
       }
 
       }
     }
+    return products;
   }
-  return products;
-} 
+  
 
 
 // Test case
