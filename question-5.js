@@ -1,6 +1,6 @@
 /*  
 What is the Big O notation for Function sortProductsByPrice of the Question 4. Explain your reason.
-Answer:
+Answer: It will be O(n2) for the reson that it functions like nested loop.
 
 
 */
