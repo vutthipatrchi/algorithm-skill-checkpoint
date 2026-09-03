@@ -6,7 +6,7 @@ while (left <= right){
     let mid = Math.floor((left+right)/2)
     if(products[mid].name === name){
     return products[mid].price
-} else if (products[mid].name !== name){
+} else if (products[mid].name < name){
 left = mid + 1
 }else{
  right = mid - 1
